@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  
+  <!-- google material icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <title>Products</title>
+  <style>
+    .col-md-8 {
+      background-color: rgb(182, 235, 182);
+    }
+
+    .col-md-4 {
+      background-color: rgb(231, 172, 192);
+    }
+
+    .material-icons.md-light {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .material-icons {
+      vertical-align: middle;
+    }
+
+    .new-release {
+      color: brown;
+    }
+
+    #fav {
+      border: none;
+      background-color: transparent;
+    }
+
+    /* hovering over the favourite button makes it red */
+    #fav:hover {
+      color: tomato;
+    }
+  </style>
+</head>
+
+<body>
+  <!--navbar start -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+    <!--navbar brand-->
+    <a class="navbar-brand" href="#">
+      hTrack
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navData">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navData">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="handson3.html"><span class="material-icons md-light">home</span>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Goals</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--navbar end -->
+
+  <h4>Products</h4>
+
+  <!-- Grid container -->
+  <div class="container-fluid">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid Column-->
+      <div class="col-md-3">
+        <!--card start-->
+        <div class="card" style="width: 18rem">
+          <img class="card-img-top"
+            src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Coco Oil (200g) <a href="#" class="badge badge-success">4.4 <i
+                  class="material-icons md-18">star</i></a></h5>
+            <span class="h5 card-title">
+              Rs. 200.00
+            </span>
+            <span class="h6 text-muted"><s>Rs. 250.00</s>20%</span>
+            <span class="new-release material-icons">
+              new_releases
+            </span>
+            <p class="card-text">
+              Escape is an innovative, skin-loving formulation, formulated with certified Fair Trade
+              Cold
+              Pressed Organic Coconut Oil,
+              produced sustainably in the Pacific Islands and supporting local communities.
+            </p>
+
+            <!--Add to Cart button-->
+            <a href="#" class="btn btn-success">
+              <span class="material-icons">
+                shopping_cart
+              </span>
+              Add to Cart</a> &nbsp; &nbsp;
+              <!-- favourite button -->
+            <button id="fav"><span class="material-icons">
+                favorite_border
+              </span></button>
+          </div>
+        </div>
+        <!--card end-->
+      </div>
+      <!--Grid Column-->
+
+      <!--Grid Column-->
+      <div class="col-md-3">
+        <!--card start-->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"
+            src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Maui Moisture (Bamboo Fibers Shampoo 305ml) <a href="#"
+                class="badge badge-warning">3.1 <i class="material-icons md-18">star</i></a></h5>
+            <span class="h5 card-title">
+              Rs. 455.00
+            </span>
+            <p class="card-text">
+              Lightweight spray conditioner suitable as a leave-in for wavy hair types. With Aquarine
+              Complex, the formula detanges, hydrates and give lating defination creating
+              a soft, beachwave look, STrengthens the hair and provides heat
+              protection up to 80C.
+            </p>
+            <!--Add to Cart button-->
+            <a href="#" class="btn btn-success">
+              <span class="material-icons">
+                shopping_cart
+              </span>
+              Add to Cart</a> &nbsp; &nbsp;
+              <!-- favourite button -->
+            <button id="fav"><span class="material-icons">
+                favorite_border
+              </span></button>
+          </div>
+        </div>
+        <!--card end-->
+      </div>
+      <!--Grid Column-->
+
+      <!--Grid Column-->
+      <div class="col-md-3">
+        <!--card start-->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"
+            src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Battlecreek Coffee (200g) <a href="#"
+                class="badge badge-danger">2.5<i class="material-icons md-18">star</i></a></h5>
+            <span class="h5 card-title">
+              Rs. 160.00
+            </span>
+            <span class="h6 text-muted"><s>Rs. 200.00</s>20%</span>
+            <span class="new-release material-icons">
+              new_releases
+            </span>
+            <p class="card-text">
+              Whether you are having your first morning cup to set the tone of the day or needing to
+              regroup and push through the afternoon,
+              we want you to experience a coffee that extracts the premium tones of the coffee bean.
+              We use coffee beans that are ethically sourced with a rating of 85+. Combined with precise roasting
+              measures,
+              we are committed to the best flavor profile with every roast.
+            </p>
+            <!-- Add to Cart button -->
+            <a href="#" class="btn btn-success">
+              <span class="material-icons">
+                shopping_cart
+              </span>
+              Add to Cart</a> &nbsp; &nbsp;
+              <!-- favourite button -->
+            <button id="fav"><span class="material-icons">
+                favorite_border
+              </span></button>
+          </div>
+        </div>
+        <!--card end-->
+      </div>
+      <!--Grid Column-->
+
+      <!--Grid Column-->
+      <div class="col-md-3">
+        <!--card start-->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"
+            src="https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Wellness Shot with Ginger(59ml) <a href="#"
+                class="badge badge-success">4.5<i class="material-icons md-18">star</i></a></h5>
+            <span class="h5 card-title">
+              Rs. 150.00
+            </span>
+            <span class="h6 text-muted"><s>Rs. 200.00</s>25%</span>
+            <span class="new-release material-icons">
+              new_releases
+            </span>
+            <p class="card-text">
+              Potent & Invigorating
+              With just ginger, lemon & cayenne, enjoy all the benefits with nothing watered down. Wellness Hack
+              Want to add a ginger boost to your juice? Drop in a Wellness Shot for a kick of ginger & enjoy the
+              benefits!
+            </p>
+            <!--Add to Cart button-->
+            <a href="#" class="btn btn-success">
+              <span class="material-icons">
+                shopping_cart
+              </span>
+              Add to Cart</a> &nbsp; &nbsp;
+            <!-- favourite button -->
+            <button id="fav"><span class="material-icons">
+                favorite_border
+              </span></button>
+          </div>
+        </div>
+        <!--card end-->
+      </div>
+      <!--Grid Column-->
+
+      <!--Grid Column-->
+      <div class="col-md-3">
+        <!--card start-->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"
+            src="https://images.unsplash.com/photo-1593723563099-2253bc3c8766?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=372&q=80"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Green grapes (1kg) <a href="#" class="badge badge-success">4.5<i
+                  class="material-icons md-18">star</i></a></h5>
+            <span class="h5 card-title">
+              Rs. 160.00
+            </span>
+            <span class="h6 text-muted"><s>Rs. 200.00</s>20%</span>
+            <span class="new-release material-icons">
+              new_releases
+            </span>
+            <p class="card-text">
+              Grapes are cultivated in the lush green farms across states such as Maharashtra,
+              Karnataka, Tamil Nadu and Andhra Pradesh. Nashik in Maharashtra is known as the grape capital of India as
+              and ranks high in grape cultivation across the world.
+            </p>
+            <!--Add to Cart button-->
+            <a href="#" class="btn btn-success">
+              <span class="material-icons">
+                shopping_cart
+              </span>
+              Add to Cart</a> &nbsp; &nbsp;
+              <!-- favourite button -->
+            <button id="fav"><span class="material-icons">
+                favorite_border
+              </span></button>
+          </div>
+        </div>
+        <!--card end-->
+      </div>
+      <!--Grid Column-->
+
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- footer -->
+  <footer class="bg-light mt-4 p-3">
+    Copyright 2019
+  </footer>
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
