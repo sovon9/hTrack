@@ -1,0 +1,2 @@
+# hTrack
+navigation bar items in the navigation bar created for hTrack login page. The navigation menu items displayed in two lines. Consider a situation where there are more navigation items, which will make the display of navigation items clumsy. In mobile devices, the navigation items should collapse within a hamburger menu. Clicking on the hamburger menu should display the menu items. Change the previous HTML page completed to display hamburger menu in mobile devices. Refer screen shots below with collapsed and expanded view of navigation items.
