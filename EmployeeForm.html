@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Gijgo css -->
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="employeeform.css" rel="stylesheet" type="text/css"/>
+    <title>Employee Form</title>
+</head>
+
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <!-- navbar baand -->
+        <a class="navbar-brand" href="#">
+            Payroll
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navData">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navData">
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Grid container -->
+    <div class="container">
+        <h1>New Employee</h1>
+
+        <form>
+            <!--form row-->
+            <div class="form-row">
+
+                <!--Grid Column-->
+                <div class="col-md-4">
+                    <label for="first_name">First Name</label>
+                    <input class="form-control" type="text" name="first_name" id="first_name">
+                </div>
+
+                <!--Grid Column-->
+                <div class="col-md-4">
+                    <label for="middle_name">Middle Name</label>
+                    <input class="form-control" type="text" name="middle_name" id="middle_name">
+                </div>
+
+                <!--Grid Column-->
+                <div class="col-md-4">
+                    <label for="last_name">Last Name</label>
+                    <input class="form-control" type="text" name="last_name" id="last_name">
+                </div>
+            </div>
+
+            <!--form row-->
+            <div class="form-row">
+
+                <!--Grid Column-->
+                <div class="col-md-6">
+                    <label for="addline1">Address Line 1</label>
+                    <input class="form-control" type="text" name="addline1" id="addline1">
+                </div>
+
+                <!--Grid Column-->
+                <div class="col-md-6">
+                    <label for="addline2">Address Line 2</label>
+                    <input class="form-control" type="text" name="addline2" id="addline2">
+                </div>
+            </div>
+
+            <!--form row-->
+            <div class="form-row">
+
+                <!--Grid Column-->
+                <div class="col-md-6">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" name="email" id="email">
+                </div>
+
+                <!--Grid Column-->
+                <div class="col-md-3">
+                    <label for="Password">Password</label>
+                    <input class="form-control" type="password" name="Password" id="Password">
+                </div>
+
+                <!--Grid Column-->
+                <div class="col-md-3">
+                    <label for="Confirm Password">Confirm Password</label>
+                    <input class="form-control" type="password" name="Confirm Password" id="Confirm Password">
+                </div>
+            </div>
+
+            <!--form row-->
+            <div class="form-row">
+
+                <!--Grid Column-->
+                <div class="col-md">
+                    <!-- department drop-down menu -->
+                    <label for="dept">Department</label>
+                    <select class="form-control" id="dept">
+                        <option value=""></option>
+                        <option value="IT">IT</option>
+                    </select>
+                </div>
+
+                <!--Grid Column-->
+                <div class="col-lg-3">
+                    <label for="Confirm Password">Date of Birth </label>
+                    <input type="text" class="form-control" id="dateOfBirth">
+                </div>
+
+                <!--Grid Column-->
+                <div class="form-check col-lg-3">
+                    <label for="gender">Gender</label><br>
+                    <!-- Gender radio buttons -->
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender1" value="male">
+                        <label class="form-check-label" for="gender1">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender2" value="female">
+                        <label class="form-check-label" for="gender2">
+                            Female
+                        </label>
+                    </div>
+                </div>
+
+                <!--Grid Column-->
+                <div class="form-check col-lg-3">
+                    <label for="permanent">
+                        Permanent
+                    </label><br>
+                    <input type="checkbox" id="permanent">
+                </div>
+            </div>
+
+            <!-- Save button -->
+            <div class="mt-3">
+                <input class="btn btn-primary" type="submit" value="Save">
+            </div>
+    </div>
+    <!-- Grid container -->
+    </form>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+
+    <script>
+        // date of birth picker
+        $('#dateOfBirth').datepicker({
+
+            uiLibrary: 'bootstrap4',
+
+            format: 'dd/mm/yyyy'
+
+        });
+
+    </script>
+</body>
+
+</html>

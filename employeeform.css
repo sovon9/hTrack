@@ -1,0 +1,10 @@
+/* overriding the default button color*/
+.btn-primary {
+    background-color: green;
+    border-color: green;
+}
+
+/* overriding the default button border-radious*/
+.btn {
+    border-radius: 0%;
+}
